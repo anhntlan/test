@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi trắc nghiệm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <form class="infor">
+            <h1>Thông tin sinh viên</h1>
+            <label for="hoten" class="infpart">Họ và tên</label>
+            <input type='text' id="hoten" required>
+            <br>
+            <label for="dob" class="infpart">Ngày tháng năm sinh</label>
+            <input id="dob" type="date" required>
+            <br>
+            <label for="msv" class="infpart">Mã sinh viên</label>
+            <input id="msv" type="text" required>
+            <br>
+            <label for="lop" class="infpart">Lớp</label>
+            <input id="lop" type="text" required>
+            <br>
+        </form>
+            <button onclick="startTest()">Bắt đầu làm bài</button>
+      
+</div>
+<div id="quiz"  style="display:none;">
+    <h1>Câu hỏi trắc nghiệm</h1>
+    <form>
+        <div id="qs-container" ></div>
+        <button id='submit' onclick="submitTest()">Nộp bài</button>
+    </form>
+
+</div>
+<div id="result" style="display:none;">
+    <h2> Kết quả bài làm</h2>
+</div>
+
+
+<br>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #805f69;
+    display: flex;
+}
+form{
+   margin: auto 250px;
+   padding: auto;
+}
+form label{
+margin-bottom: 10px;
+}
+form input{
+    padding: 5px;
+    margin: 20px auto;
+
+}
+/* .infpart{
+    margin-top: 50px;
+    padding: 30px 10px;
+} */
+.container {
+width: 80%;
+  padding: 50px;
+  margin:100px 200px;
+  background-color:aliceblue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+   
+    
+}
+h1{
+    text-align: center;
+}
+button{
+    display: inline-block;
+    padding: 10px 30px ;
+    background-color:#3b613b;
+    border-radius: 10px;
+    margin: 10px 250px;
+    
+
+}
+
+.infpart{
+    margin-top: 50px;
+}
+.quiz{
+    width: 80%;
+    padding: 50px;
+    margin:100px 100px;
+    background-color:aliceblue;
+    border-radius: 10px;
+
+}
